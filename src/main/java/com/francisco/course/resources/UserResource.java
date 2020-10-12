@@ -13,7 +13,7 @@ import com.francisco.course.entities.User;
 import com.francisco.course.services.UserService;
 
 @RestController
-@RequestMapping(value = "users")
+@RequestMapping(value = "/users")
 public class UserResource {
 
 	@Autowired
